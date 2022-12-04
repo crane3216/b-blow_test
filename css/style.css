@@ -1,0 +1,421 @@
+@charset "UTF-8";
+
+body {
+  color: #444;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  color: #444;
+  text-decoration: none;
+}
+
+li{
+  color: #444;
+  list-style: none;
+}
+
+/* --------------------------------------
+header
+-------------------------------------- */
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+header img{
+  padding-top: 20px;
+  padding-left: 95px;
+}
+
+header ul{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 95px;
+}
+
+header li{
+  padding-left: 40px;
+}
+
+/* --------------------------------------
+main
+-------------------------------------- */
+
+main{
+  color: #444;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.mainvisual .title{
+  font-size: 280%;
+  font-weight: lighter;
+  margin-top: 30px;
+}
+
+.mainvisual .title span{
+  font-weight: bold;
+}
+
+.mainvisual p{
+  margin-top: 30px;
+  line-height: 60px;
+}
+
+/* --------------------------------------
+about
+-------------------------------------- */
+
+#about{
+  background-image: url(../images/長方形\　1.png);
+  line-height: 70px;
+}
+
+#about .title{
+  padding-top: 210px;
+  font-size: 260%;
+}
+
+#about .subtitle{
+  font-size: 10px;
+  margin-top: -20px;
+  margin-left: 10px;
+  letter-spacing: 1.2em;
+}
+
+#about .about-menu-title, .about-menu-subtitle{
+  font-size: 220%;
+  font-weight: normal;
+}
+
+.about-menu{
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  font-size: 120%;
+  padding-top: 70px;
+}
+
+.about-menu .text-lower{
+  margin-top: 40px;
+  padding-bottom: 70px;
+}
+
+.about-menu img{
+  padding-left: 50px;
+}
+
+/* --------------------------------------
+reason
+-------------------------------------- */
+
+.reason h2{
+  font-size: 500%;
+  font-weight: normal;
+  margin-top: 300px;
+}
+
+.reason h2 span{
+  font-weight: bold;
+}
+
+.reason-menu{
+  line-height: 50px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 637px);
+}
+
+.reason-menu h3{
+  font-size: 40px;
+  font-weight: normal;
+  padding-top: 150px;
+  position: relative;
+}
+
+.reason-menu h3 .human{
+  margin-top: -70px;
+  position: absolute;
+  right: 80px;
+}
+
+.reason-menu h3 .shoes{
+  margin-top: -10px;
+  position: absolute;
+  right: 60px;
+}
+
+.reason-menu h3 .water{
+  margin-top: -100px;
+  position: absolute;
+  right: 90px;
+}
+
+.reason-menu h3 .bag{
+  margin-top: -70px;
+  position: absolute;
+  right: 60px;
+}
+
+.reason-menu p{
+  text-align: start;
+  padding-left: -30px;
+  padding-top: 40px;
+}
+
+.reason-menu .human-title{
+  padding-left: 30px;
+  padding-top: 30px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.reason-menu .water-title{
+  padding-left: 50px;
+  padding-top: 30px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.reason-menu .water-text{
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+.reason-menu .shoes-title{
+  padding-left: 30px;
+  padding-top: 70px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.reason-menu .bag-title{
+  padding-left: 80px;
+  padding-top: 30px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.reason-menu .bag-text{
+  padding-top: 80px;
+  padding-left: 60px;
+}
+
+.reason-menu img{
+  margin-top: 20px;
+}
+
+/* --------------------------------------
+customer-reviews
+-------------------------------------- */
+
+#customer-reviews{
+  background-image: url(../images/長方形\　2.png);
+}
+
+#customer-reviews .title{
+  padding-top: 280px;
+  font-size: 260%;
+}
+
+#customer-reviews .subtitle{
+  font-size: 10px;
+  letter-spacing: 1.2em;
+  padding-left: -20px;
+}
+
+.cr-menu{
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cr-menu-title, p{
+  margin-left: 80px;
+}
+
+.cr-menu-title{
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.cr-menu p{
+  line-height: 50px;
+}
+
+/* --------------------------------------
+products
+-------------------------------------- */
+
+#products{
+  margin-top: 120px;
+}
+
+#products .title{
+  font-size: 260%;
+}
+
+#products .subtitle{
+  font-size: 10px;
+  letter-spacing: 1.2em;
+  margin-left: 10px;
+}
+
+.products-menu{
+  display: inline-block;
+  flex-direction: column;
+  text-align: start;
+  margin:50px;
+}
+
+.products-menu h3, h4{
+  text-align: center;
+  font-size: 110%;
+  font-weight: normal;
+}
+
+.products-menu h3 span{
+  font-weight: bold;
+}
+
+.products-menu h4, p{
+  margin-top: 10px;
+}
+
+.products-menu p{
+  letter-spacing: 0.17em;
+  line-height: 40px;
+  margin-left: 40px;
+}
+
+.products-menu img{
+  margin-left: 40px;
+}
+
+.products-menu #btn{
+  background-color: #fff;
+  color: #333;
+  font-size: 1.5rem;
+  border: solid 1px #333;
+  display: block;
+  padding: 15px 0;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 480px;
+  text-align: center;
+  position: relative;
+}
+
+.products-menu #btn:hover{
+  background-color: #333;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+.spray{
+  margin-top: 90px;
+}
+
+/* --------------------------------------
+faq
+-------------------------------------- */
+
+#faq{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#faq .title{
+  font-size: 200%;
+  font-weight: normal;
+}
+
+#faq .title span{
+  font-size: 260%;
+  font-weight: bold;
+}
+
+#faq .subtitle{
+  font-size: 10px;
+  letter-spacing: 1.2em;
+  margin-bottom: 100px;
+}
+
+.faq-menu{
+  text-align: start;
+}
+
+.faq-menu h3{
+  background-color: #ddd;
+  font-size: 150%;
+  font-weight: normal;
+  margin-top: 30px;
+  padding-left: 5px;
+}
+
+.faq-menu p{
+  line-height: 50px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* --------------------------------------
+media
+-------------------------------------- */
+
+.media{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.media-logo{
+  display: grid;
+  grid-template-columns: repeat(5, 160px);
+  column-gap: 15px;
+  justify-content: center;
+}
+
+/* --------------------------------------
+footer
+-------------------------------------- */
+
+footer{
+  height: 230px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-menu{
+  margin-top: 30px;
+  padding-left: 60px;
+}
+
+footer .footer-menu li{
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+footer .footer-menu span{
+  font-size: 20px;
+}
+
+footer .sns{
+  display: flex;
+  align-items: flex-end;
+}
+
+footer .sns li{
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
