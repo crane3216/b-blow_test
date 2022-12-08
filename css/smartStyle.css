@@ -1,0 +1,323 @@
+@media screen and (max-width: 1027px) {
+
+  body{
+    width: 375px;
+  }
+
+/* --------------------------------------
+header
+-------------------------------------- */
+
+  header ul{
+    /* display: flex; */
+    font-size: 10px;
+    width: 200px;
+    position: relative;
+    top: 7px;
+    left: 32px;
+  }
+
+  header ul li{
+    padding-left: 8px;
+  }
+
+  header img{
+    height: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    left: -90px;
+  }
+
+/* --------------------------------------
+main
+-------------------------------------- */
+
+  main{
+    width: 100%;
+  }
+
+  .mainvisual .title{
+    font-size: 25px;
+    line-height: 50px;
+  }
+
+  .mainvisual .title span{
+    font-size: 28px;
+  }
+
+  .mainvisual p{
+    margin-left: 0;
+    line-height: 50px;
+    white-space: nowrap;
+    font-size: 11px;
+  }
+
+/* --------------------------------------
+about
+-------------------------------------- */
+
+  #about{
+    line-height: 30px;
+    white-space: nowrap;
+  }
+
+  #about .subtitle{
+    margin-top: 14px;
+  }
+
+  #about .about-menu-title{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 50px;
+  }
+
+  #about .about-menu-title-second{
+    font-size: 16px;
+    margin-top: 140px;
+    font-weight: bold;
+    padding-top: 80px;
+  }
+
+  .about-menu{
+    font-size: 12px;
+    margin-right: 50px;
+  }
+
+  .about-menu .second-text{
+    margin-top: -30px;
+  }
+
+  .about-menu img{
+    position: absolute;
+    left: 0;
+    margin-top: 300px;
+    padding-right: 40px;
+  }
+
+  .about-menu .first-img{
+    margin-left: -10px;
+  }
+
+  .about-menu .second-img{
+    margin-top: 200px;
+    margin-left: -10px;
+  }
+
+  .about-menu .text-upper{
+    margin-top: -30px;
+  }
+
+/* --------------------------------------
+reason
+-------------------------------------- */
+
+  .reason{
+    width: 100%;
+    padding-top: 330px;
+
+  }
+
+  .reason h2{
+    font-size: 25px;
+  }
+
+  .reason-menu{
+    display: grid;
+    grid-template-columns: repeat(1, 150px);
+    column-gap: 30px;
+    row-gap: 0;
+  }
+
+  .reason-menu li{
+    width: 375px;
+    margin-left: -110px;
+  }
+
+  .reason-menu h3{
+    padding-top: -30px;
+    margin-left: -100px;
+    font-size: 20px;
+  }
+
+  .reason-menu p{
+    width: 350px;
+    font-size: 10px;
+    line-height: 30px;
+    margin-left: 10px;
+  }
+
+  .reason-menu .shoes-text{
+    padding-left: 50px;
+  }
+
+  .reason-menu .human-title, .reason-menu .shoes-title{
+    font-size: 16px;
+    padding-left: 50px;
+  }
+
+  .reason-menu .water-title{
+    font-size: 16px;
+    padding-left: 100px;
+  }
+
+  .reason-menu .bag-title{
+    font-size: 16px;
+    padding-left: 90px;
+  }
+
+  .reason-menu .eighty-eight, .reason-menu .eighty,
+  .reason-menu .ninety, .reason-menu .eighty-two{
+    width: 300px;
+    height: 300px;
+  }
+
+/* --------------------------------------
+customer-reviews
+-------------------------------------- */
+
+  #customer-reviews{
+    height: 1500px;
+  }
+
+  #customer-reviews .title{
+    margin-top: -60px;
+    padding-top: 200px;
+  }
+
+  #customer-reviews .subtitle{
+    margin-left: 26px;
+  }
+
+  .cr-menu-title{
+    width: 200px;
+    margin-left: -30px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .cr-menu li{
+    width: 150px;
+  }
+
+  .cr-menu p{
+    font-size: 10px;
+    white-space: nowrap;
+    letter-spacing: -1px;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-left: -32px;
+    position: relative;
+  }
+
+/* --------------------------------------
+products
+-------------------------------------- */
+
+  #products{
+    width: 100%;
+    justify-content: center;
+    margin-top: -100px;
+  }
+
+  .products-menu{
+    margin-left: 50px;
+  }
+
+  .products-menu li{
+    width: 320px;
+  }
+
+  .products-menu img{
+    margin-left: -20px;
+  }
+
+  .products-menu h3{
+    font-size: 90%;
+    margin-left: -50px;
+  }
+
+  .products-menu h4{
+    font-size: 70%;
+    margin-left: -50px;
+  }
+
+  .products-menu p{
+    position: relative;
+    left: -48px;
+    width: 300px;
+    letter-spacing: 0.17em;
+    line-height: 20px;
+    font-size: 11px;
+  }
+
+  .products-menu #btn{
+    position: relative;
+    left: 30px;
+    font-size: 1.2rem;
+    padding: 15px 0;
+    margin-left: -20px;
+    width: 80%;
+  }
+
+/* --------------------------------------
+faq
+-------------------------------------- */
+
+  #faq{
+    width: 375px;
+  }
+
+  #faq .title{
+    width: 375px;
+    font-size: 15px;
+  }
+
+  #faq .subtitle{
+    padding-right: 70px;
+  }
+
+  .faq-menu h3{
+    font-size: 19px;
+  }
+
+  .faq-menu p{
+    margin-left: 10px;
+    word-break: normal;
+    line-height: 30px;
+    font-size: 10px;
+  }
+
+/* --------------------------------------
+media
+-------------------------------------- */
+
+  .media-logo{
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    justify-content: center;  
+  }
+
+/* --------------------------------------
+footer
+-------------------------------------- */
+
+  footer .footer-menu{
+    white-space: nowrap;
+    height: 150px;
+    padding-left: 10px;
+  }
+
+  footer .footer-menu li{
+    font-size: 10px;
+  }
+
+  footer .footer-menu span{
+    font-size: 15px;
+  }
+
+  footer .sns{
+    display: grid;
+    grid-template-columns: repeat(2, 40px);
+  }
+}
